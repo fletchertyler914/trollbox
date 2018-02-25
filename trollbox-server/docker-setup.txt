@@ -1,0 +1,5 @@
+docker build -t trollbox-server .
+docker run  -p 8081:3000 -d trollbox-server
+docker run  -p 8082:3000 -d trollbox-server
+docker run  -p 8083:3000 -d trollbox-server
+docker run  -p 8084:3000 -d trollbox-server

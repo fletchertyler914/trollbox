@@ -1,0 +1,2 @@
+docker build -t trollbox-load-balancer .
+docker run -p 80:80 -d trollbox-load-balancer
